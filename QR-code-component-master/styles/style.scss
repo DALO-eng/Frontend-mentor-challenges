@@ -1,0 +1,41 @@
+@import "root";
+
+.general-container{
+    background-color: $light-gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 340px;
+    background-color: $white;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.img-container{
+    border-radius: 1rem;
+    overflow: hidden;
+    img{
+        width: 100%;
+    }
+}
+
+@mixin margin-info {
+    margin: 1rem;
+}
+.title{
+    color: $dark-blue;
+    @include margin-info;
+    font-size: 1.5rem;
+}
+
+.info{
+    color: $graylish-blue;
+    @include margin-info;
+    margin-bottom: 1.5rem;
+}
