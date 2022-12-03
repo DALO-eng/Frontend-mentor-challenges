@@ -35,9 +35,6 @@ main {
   max-width: 100%;
   display: inherit;
 }
-.container .product-img-container .mobile-img {
-  display: none;
-}
 .container .product-details-container .product {
   height: 100%;
   padding: 2rem;
@@ -102,12 +99,6 @@ main {
 @media only screen and (max-width: 620px) {
   .container {
     flex-direction: column;
-  }
-  .container .product-img-container .mobile-img {
-    display: inherit;
-  }
-  .container .product-img-container .desktop-img {
-    display: none;
   }
   .product-type,
   .product-name,
